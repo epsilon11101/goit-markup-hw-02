@@ -27,9 +27,6 @@ ol {
      font-weight: 500px;
  }
 
- nav {
-     padding: 30px;
- }
 
  h2 {
      text-align: center;
@@ -42,10 +39,13 @@ ol {
      color: purple !important;
  }
 nav{
+
+     padding: 30px;
      display: flex;
      flex-wrap: wrap;
      justify-content: space-between;
 }
+
 
 nav ul{
         display: flex; 
