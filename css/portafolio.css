@@ -41,12 +41,13 @@ input[type="button"]:hover{
     cursor: pointer;
     text-align: left;
     border: 1px solid #EEEEEE;
-    transition: all 0.5s;
+    transition: all 0.8s;
     
 }
 
 .portafolio figure:hover{
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.404);
+     transform: scale(1.1);
 }
 
 .portafolio figure img{
