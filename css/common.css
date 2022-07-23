@@ -41,20 +41,22 @@ ol {
  .logo:hover {
      color: purple !important;
  }
-
-.navbar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-
+nav{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
 }
 
-.navbar li {
+nav ul{
+        display: flex; 
+        align-items: center;
+}
+
+nav li {
     padding-left: 100px;
 }
 
-.navbar a:hover {
+nav a:hover {
     color: var(--blue-color);
 }
 
