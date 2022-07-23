@@ -1,0 +1,66 @@
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 500px;
+    align-items:center;
+    justify-content: space-around;
+}
+
+input[type="button"]{
+    width: auto;
+    height: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: .03em;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+    background-color: inherit;
+     cursor: pointer;
+}
+
+
+
+input[type="button"]:hover{
+    background-color: var(--blue-color);
+    color: white;
+}
+
+.portafolio{
+    gap: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    place-content: center;
+    
+}
+
+.portafolio figure {
+    width: 370px;
+    height: 404px;
+    cursor: pointer;
+    text-align: left;
+    border: 1px solid #EEEEEE;
+    transition: all 0.5s;
+    
+}
+
+.portafolio figure:hover{
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.404);
+}
+
+.portafolio figure img{
+        width: 370px;
+        height: 294px;
+        transition: all 1s;
+    }
+
+    .portafolio figure img:hover{
+        filter: grayscale(80%);
+    }
+
+.portafolio figcaption p{
+    color: #757575;
+}
+
+

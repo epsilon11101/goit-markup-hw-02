@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+    color: black;
+    background-color: #E5E5E5;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+:root {
+    --blue-color: #2196F3;
+    --darkcolor: #2F303A;
+    --font: 'Roboto',
+        sans-serif;
+}
+ a,
+ a:hover,
+ a:focus,
+ a:active {
+     text-decoration: none;
+     color: inherit;
+     font-weight: 500px;
+ }
+
+ nav {
+     padding: 30px;
+ }
+
+ h2 {
+     text-align: center;
+     line-height: 42.19px;
+     letter-spacing: 3%;
+     font-weight: 700;
+     font-size: 36px;
+ }
+ .logo:hover {
+     color: purple !important;
+ }
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar li {
+    padding-left: 100px;
+}
+
+.navbar a:hover {
+    color: var(--blue-color);
+}
+
+.logo {
+    font-family: 'Raleway',
+        sans-serif;
+    color: var(--blue-color);
+    font-size: 26px;
+    font-weight: bolder;
+    line-height: 31px;
+    transition: all 0.5s;
+}
+
+.banner,
+footer {
+    background-color: var(--darkcolor);
+}
+
+a[href^='mailto'],
+a[href^='tel'] {
+    color: #757575;
+}
+
+
+footer {
+    display: flex;
+    justify-content: left;
+}
+
+footer address,
+footer section {
+    margin: 50px 100px;
+    color: white;
+}
+
+footer address {
+    width: 15%;
+}
+
+address li {
+    margin: 5px 0px;
+}
+
+.social-network i {
+    font-size: 44px;
+    transition: all 0.5s;
+}
+
+.social-network i:hover {
+    color: var(--blue-color);
+}
+
+.social-network ul {
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
