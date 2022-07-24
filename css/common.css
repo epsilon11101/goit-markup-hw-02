@@ -49,12 +49,15 @@ nav{
 
 nav ul{
         display: flex; 
-        align-items: center;
+        flex-wrap: wrap;
+        gap: 150px;
+        justify-content: center;
+        place-items: center;     
 }
 
-nav li {
+/* nav li {
     padding-left: 100px;
-}
+} */
 
 nav a:hover {
     color: var(--blue-color);
@@ -111,8 +114,7 @@ address li {
 
 .social-network ul {
     padding: 0;
-    display: grid;
-    place-items: center;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
     gap: 30px;
 }
