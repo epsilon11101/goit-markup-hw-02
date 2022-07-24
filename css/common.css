@@ -55,10 +55,6 @@ nav ul{
         place-items: center;     
 }
 
-/* nav li {
-    padding-left: 100px;
-} */
-
 nav a:hover {
     color: var(--blue-color);
 }
