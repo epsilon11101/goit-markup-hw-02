@@ -1,9 +1,8 @@
 .menu ul{
     display: flex;
     flex-wrap: wrap;
-    margin: 50px 500px;
-    align-items:center;
-    justify-content: space-around;
+    gap: 30px;
+    justify-content: center;
 }
 
 input[type="button"]{
@@ -29,8 +28,9 @@ input[type="button"]:hover{
 
 .portafolio{
     gap: 10px;
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
     place-content: center;
     margin-bottom: 50px;
     
