@@ -84,12 +84,12 @@ a[href^='tel'] {
 footer {
     display: flex;
     justify-content: left;
+    color: white;
 }
 
 footer address,
 footer section {
-    margin: 50px 100px;
-    color: white;
+    margin: 50px 100px; 
 }
 
 footer address {
@@ -111,6 +111,8 @@ address li {
 
 .social-network ul {
     padding: 0;
-    display: flex;
-    gap: 10px;
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
 }
