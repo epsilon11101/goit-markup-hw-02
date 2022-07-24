@@ -59,11 +59,10 @@ p.description {
 
 
 .what_we_do > div{
-    display: grid;
-    gap: 50px;
-    grid-template-columns: auto auto auto ;
-    place-content: center;
-    
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .what_we_do .grid-item img{
@@ -79,9 +78,9 @@ p.description {
     padding-top: 50px;
 }
 .our_team > ul{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    place-content: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 
@@ -119,13 +118,13 @@ p.description {
     line-height: 18.75px;
     letter-spacing: 3%;
 }
-.our_team figcaption > p{
+figcaption > p{
 color: #757575;
 }
 
-
 img{
     transition: all 0.5s;
+    object-fit: cover;
 }
 img:hover{
     transform: scale(1.1);

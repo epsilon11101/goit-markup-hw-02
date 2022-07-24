@@ -55,13 +55,14 @@ input[type="button"]:hover{
         width: 370px;
         height: 294px;
         transition: all 1s;
+        object-fit: cover;
     }
 
-    .portafolio figure img:hover{
-        filter: grayscale(80%);
+.portafolio figure img:hover{
+    filter: grayscale(80%);
     }
 
-.portafolio figcaption p{
+.portafolio figcaption>p{
     color: #757575;
 }
 
