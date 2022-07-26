@@ -1,3 +1,14 @@
+.banner,
+.what_we_do>div,
+.our_team>ul{
+   display: flex; 
+   justify-content: center;
+}
+
+.what_we_do>div,
+.our_team>ul{
+flex-wrap: wrap;
+}
 
 .banner{
     color: white;
@@ -5,26 +16,24 @@
     font-size: 34px;
     letter-spacing: 6%;
     height: 600px;
-    display: flex;
     align-items: center;
-    justify-content: center;
     text-align: center;
 }
 
 .banner div{
 width: 696px;
 }
+
 input[type="button"] {
+    font-size: 20px;
     color: white;
     background-color: var(--blue-color);
-    padding: 10px 32px;
-    gap: 10px;
     border-radius: 4px;
     width: 261px;
     height: 50px;
     border: solid 2px var(--blue-color);
     transition: all 1s;
-
+    
 }
 
 input[type="button"]:hover {
@@ -59,10 +68,7 @@ p.description {
 
 
 .what_we_do > div{
-    display: flex;
     gap: 100px;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
 .what_we_do .grid-item img{
@@ -77,11 +83,7 @@ p.description {
 .our_team h2{
     padding-top: 50px;
 }
-.our_team > ul{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
+
 
 
 .our_team  figure{

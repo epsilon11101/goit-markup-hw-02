@@ -38,18 +38,20 @@ ol {
  .logo:hover {
      color: purple !important;
  }
-nav{
-
-     padding: 30px;
+ nav,
+ nav ul,
+ footer,
+ .social-network ul{
      display: flex;
      flex-wrap: wrap;
+ }
+nav{
+     padding: 30px;
      justify-content: space-between;
 }
 
 
 nav ul{
-        display: flex; 
-        flex-wrap: wrap;
         gap: 150px;
         justify-content: center;
         place-items: center;     
@@ -81,7 +83,6 @@ a[href^='tel'] {
 
 
 footer {
-    display: flex;
     justify-content: left;
     color: white;
 }
@@ -110,7 +111,5 @@ address li {
 
 .social-network ul {
     padding: 0;
-    display: flex;
-    flex-wrap: wrap;
     gap: 30px;
 }
